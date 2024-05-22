@@ -11,8 +11,9 @@
 - npm run dev.
 - php artisan migrate.
 - php artisan db:seed.
-- php artisan serve.
 - php artisan optimize.
+- php artisan serve.
+
 - ingresa en el boton Log in con las siguientes credenciales.
 	email: test@example.com.
 	password: 12345678.
