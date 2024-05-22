@@ -19,5 +19,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
             'password' => bcrypt('12345678'),
         ]);
+
+        $this->call(ProProcesoSeeder::class);
+        $this->call(TipTipoDocSeeder::class);
     }
 }
